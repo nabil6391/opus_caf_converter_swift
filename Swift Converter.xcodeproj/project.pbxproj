@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		7E40609A2A5F630400D0D28A /* opus_caf_converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4060992A5F630400D0D28A /* opus_caf_converter.swift */; };
 		7E40609E2A5F7D7100D0D28A /* CAFTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E40609D2A5F7D7100D0D28A /* CAFTest.swift */; };
+		7E4060A22A5F9C7E00D0D28A /* caf_models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4060A12A5F9C7E00D0D28A /* caf_models.swift */; };
+		7E4060A42A5F9C9000D0D28A /* opus_models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4060A32A5F9C9000D0D28A /* opus_models.swift */; };
+		7E4060A62A5F9C9C00D0D28A /* helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4060A52A5F9C9C00D0D28A /* helpers.swift */; };
 		7ED68F052A5E112F00613BFC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED68F042A5E112F00613BFC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,9 @@
 /* Begin PBXFileReference section */
 		7E4060992A5F630400D0D28A /* opus_caf_converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = opus_caf_converter.swift; sourceTree = "<group>"; };
 		7E40609D2A5F7D7100D0D28A /* CAFTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAFTest.swift; sourceTree = "<group>"; };
+		7E4060A12A5F9C7E00D0D28A /* caf_models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caf_models.swift; sourceTree = "<group>"; };
+		7E4060A32A5F9C9000D0D28A /* opus_models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = opus_models.swift; sourceTree = "<group>"; };
+		7E4060A52A5F9C9C00D0D28A /* helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpers.swift; sourceTree = "<group>"; };
 		7ED68F012A5E112F00613BFC /* Swift Converter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift Converter"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED68F042A5E112F00613BFC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7ED68F0F2A5E20F000613BFC /* sample4.opus */ = {isa = PBXFileReference; lastKnownFileType = file; name = sample4.opus; path = ../../../opis/caf/caf/samples/sample4.opus; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 				7ED68F042A5E112F00613BFC /* main.swift */,
 				7E4060992A5F630400D0D28A /* opus_caf_converter.swift */,
 				7ED68F0F2A5E20F000613BFC /* sample4.opus */,
+				7E4060A12A5F9C7E00D0D28A /* caf_models.swift */,
+				7E4060A32A5F9C9000D0D28A /* opus_models.swift */,
+				7E4060A52A5F9C9C00D0D28A /* helpers.swift */,
 			);
 			path = "Swift Converter";
 			sourceTree = "<group>";
@@ -128,9 +137,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E4060A22A5F9C7E00D0D28A /* caf_models.swift in Sources */,
 				7ED68F052A5E112F00613BFC /* main.swift in Sources */,
 				7E40609A2A5F630400D0D28A /* opus_caf_converter.swift in Sources */,
+				7E4060A42A5F9C9000D0D28A /* opus_models.swift in Sources */,
 				7E40609E2A5F7D7100D0D28A /* CAFTest.swift in Sources */,
+				7E4060A62A5F9C9C00D0D28A /* helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
