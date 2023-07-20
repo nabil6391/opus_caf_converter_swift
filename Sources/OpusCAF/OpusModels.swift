@@ -1,8 +1,8 @@
 //
-//  opus_models.swift
-//  Swift Converter
+//  File.swift
+//  
 //
-//  Created by Fairoze Hassan on 13/07/2023.
+//  Created by hamza on 20/7/23.
 //
 
 import Foundation
@@ -27,16 +27,16 @@ enum OggReaderError: Error {
 // OggReader is used to read Ogg files and return page payloads
 class OggReader {
     var stream: InputStream?
-       
-       init(filePath: String) {
-           self.stream = InputStream(fileAtPath: filePath)
-           self.stream?.open()
-       }
-       
-       deinit {
-           self.stream?.close()
-       }
-       
+    
+    init(filePath: String) {
+        self.stream = InputStream(fileAtPath: filePath)
+        self.stream?.open()
+    }
+    
+    deinit {
+        self.stream?.close()
+    }
+    
 }
 
 // OggHeader is the metadata from the first two pages

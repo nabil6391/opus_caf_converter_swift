@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		506582862A68C3E70001B6F7 /* OpusCAFiOSExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506582852A68C3E70001B6F7 /* OpusCAFiOSExampleApp.swift */; };
+		506582882A68C3E70001B6F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506582872A68C3E70001B6F7 /* ContentView.swift */; };
+		5065828A2A68C3E80001B6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506582892A68C3E80001B6F7 /* Assets.xcassets */; };
+		5065828D2A68C3E80001B6F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5065828C2A68C3E80001B6F7 /* Preview Assets.xcassets */; };
+		506582972A68C3E80001B6F7 /* OpusCAFiOSExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506582962A68C3E80001B6F7 /* OpusCAFiOSExampleTests.swift */; };
+		506582B12A68C4530001B6F7 /* OpusCAF in Frameworks */ = {isa = PBXBuildFile; productRef = 506582B02A68C4530001B6F7 /* OpusCAF */; };
+		506582B32A68C47B0001B6F7 /* sample.opus in Resources */ = {isa = PBXBuildFile; fileRef = 506582B22A68C47B0001B6F7 /* sample.opus */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		506582932A68C3E80001B6F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5065827A2A68C3E70001B6F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 506582812A68C3E70001B6F7;
+			remoteInfo = OpusCAFiOSExample;
+		};
+		5065829D2A68C3E80001B6F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5065827A2A68C3E70001B6F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 506582812A68C3E70001B6F7;
+			remoteInfo = OpusCAFiOSExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		506582822A68C3E70001B6F7 /* OpusCAFiOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpusCAFiOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		506582852A68C3E70001B6F7 /* OpusCAFiOSExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusCAFiOSExampleApp.swift; sourceTree = "<group>"; };
+		506582872A68C3E70001B6F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		506582892A68C3E80001B6F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5065828C2A68C3E80001B6F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		506582922A68C3E80001B6F7 /* OpusCAFiOSExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpusCAFiOSExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		506582962A68C3E80001B6F7 /* OpusCAFiOSExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusCAFiOSExampleTests.swift; sourceTree = "<group>"; };
+		5065829C2A68C3E80001B6F7 /* OpusCAFiOSExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpusCAFiOSExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		506582B22A68C47B0001B6F7 /* sample.opus */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.opus; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5065827F2A68C3E70001B6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506582B12A68C4530001B6F7 /* OpusCAF in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5065828F2A68C3E80001B6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506582992A68C3E80001B6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		506582792A68C3E70001B6F7 = {
+			isa = PBXGroup;
+			children = (
+				506582842A68C3E70001B6F7 /* OpusCAFiOSExample */,
+				506582952A68C3E80001B6F7 /* OpusCAFiOSExampleTests */,
+				506582832A68C3E70001B6F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		506582832A68C3E70001B6F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				506582822A68C3E70001B6F7 /* OpusCAFiOSExample.app */,
+				506582922A68C3E80001B6F7 /* OpusCAFiOSExampleTests.xctest */,
+				5065829C2A68C3E80001B6F7 /* OpusCAFiOSExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		506582842A68C3E70001B6F7 /* OpusCAFiOSExample */ = {
+			isa = PBXGroup;
+			children = (
+				506582B22A68C47B0001B6F7 /* sample.opus */,
+				506582852A68C3E70001B6F7 /* OpusCAFiOSExampleApp.swift */,
+				506582872A68C3E70001B6F7 /* ContentView.swift */,
+				506582892A68C3E80001B6F7 /* Assets.xcassets */,
+				5065828B2A68C3E80001B6F7 /* Preview Content */,
+			);
+			path = OpusCAFiOSExample;
+			sourceTree = "<group>";
+		};
+		5065828B2A68C3E80001B6F7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5065828C2A68C3E80001B6F7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		506582952A68C3E80001B6F7 /* OpusCAFiOSExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				506582962A68C3E80001B6F7 /* OpusCAFiOSExampleTests.swift */,
+			);
+			path = OpusCAFiOSExampleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		506582812A68C3E70001B6F7 /* OpusCAFiOSExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506582A62A68C3E80001B6F7 /* Build configuration list for PBXNativeTarget "OpusCAFiOSExample" */;
+			buildPhases = (
+				5065827E2A68C3E70001B6F7 /* Sources */,
+				5065827F2A68C3E70001B6F7 /* Frameworks */,
+				506582802A68C3E70001B6F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpusCAFiOSExample;
+			packageProductDependencies = (
+				506582B02A68C4530001B6F7 /* OpusCAF */,
+			);
+			productName = OpusCAFiOSExample;
+			productReference = 506582822A68C3E70001B6F7 /* OpusCAFiOSExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		506582912A68C3E80001B6F7 /* OpusCAFiOSExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506582A92A68C3E80001B6F7 /* Build configuration list for PBXNativeTarget "OpusCAFiOSExampleTests" */;
+			buildPhases = (
+				5065828E2A68C3E80001B6F7 /* Sources */,
+				5065828F2A68C3E80001B6F7 /* Frameworks */,
+				506582902A68C3E80001B6F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				506582942A68C3E80001B6F7 /* PBXTargetDependency */,
+			);
+			name = OpusCAFiOSExampleTests;
+			productName = OpusCAFiOSExampleTests;
+			productReference = 506582922A68C3E80001B6F7 /* OpusCAFiOSExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5065829B2A68C3E80001B6F7 /* OpusCAFiOSExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506582AC2A68C3E80001B6F7 /* Build configuration list for PBXNativeTarget "OpusCAFiOSExampleUITests" */;
+			buildPhases = (
+				506582982A68C3E80001B6F7 /* Sources */,
+				506582992A68C3E80001B6F7 /* Frameworks */,
+				5065829A2A68C3E80001B6F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5065829E2A68C3E80001B6F7 /* PBXTargetDependency */,
+			);
+			name = OpusCAFiOSExampleUITests;
+			productName = OpusCAFiOSExampleUITests;
+			productReference = 5065829C2A68C3E80001B6F7 /* OpusCAFiOSExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5065827A2A68C3E70001B6F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					506582812A68C3E70001B6F7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					506582912A68C3E80001B6F7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 506582812A68C3E70001B6F7;
+					};
+					5065829B2A68C3E80001B6F7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 506582812A68C3E70001B6F7;
+					};
+				};
+			};
+			buildConfigurationList = 5065827D2A68C3E70001B6F7 /* Build configuration list for PBXProject "OpusCAFiOSExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 506582792A68C3E70001B6F7;
+			packageReferences = (
+				506582AF2A68C4530001B6F7 /* XCRemoteSwiftPackageReference "opus_caf_converter_swift" */,
+			);
+			productRefGroup = 506582832A68C3E70001B6F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				506582812A68C3E70001B6F7 /* OpusCAFiOSExample */,
+				506582912A68C3E80001B6F7 /* OpusCAFiOSExampleTests */,
+				5065829B2A68C3E80001B6F7 /* OpusCAFiOSExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		506582802A68C3E70001B6F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5065828D2A68C3E80001B6F7 /* Preview Assets.xcassets in Resources */,
+				5065828A2A68C3E80001B6F7 /* Assets.xcassets in Resources */,
+				506582B32A68C47B0001B6F7 /* sample.opus in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506582902A68C3E80001B6F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5065829A2A68C3E80001B6F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5065827E2A68C3E70001B6F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506582882A68C3E70001B6F7 /* ContentView.swift in Sources */,
+				506582862A68C3E70001B6F7 /* OpusCAFiOSExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5065828E2A68C3E80001B6F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506582972A68C3E80001B6F7 /* OpusCAFiOSExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506582982A68C3E80001B6F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		506582942A68C3E80001B6F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 506582812A68C3E70001B6F7 /* OpusCAFiOSExample */;
+			targetProxy = 506582932A68C3E80001B6F7 /* PBXContainerItemProxy */;
+		};
+		5065829E2A68C3E80001B6F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 506582812A68C3E70001B6F7 /* OpusCAFiOSExample */;
+			targetProxy = 5065829D2A68C3E80001B6F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		506582A42A68C3E80001B6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		506582A52A68C3E80001B6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		506582A72A68C3E80001B6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpusCAFiOSExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFiOSExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		506582A82A68C3E80001B6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpusCAFiOSExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFiOSExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		506582AA2A68C3E80001B6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFiOSExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpusCAFiOSExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpusCAFiOSExample";
+			};
+			name = Debug;
+		};
+		506582AB2A68C3E80001B6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFiOSExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpusCAFiOSExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpusCAFiOSExample";
+			};
+			name = Release;
+		};
+		506582AD2A68C3E80001B6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFiOSExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpusCAFiOSExample;
+			};
+			name = Debug;
+		};
+		506582AE2A68C3E80001B6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFiOSExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpusCAFiOSExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5065827D2A68C3E70001B6F7 /* Build configuration list for PBXProject "OpusCAFiOSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506582A42A68C3E80001B6F7 /* Debug */,
+				506582A52A68C3E80001B6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506582A62A68C3E80001B6F7 /* Build configuration list for PBXNativeTarget "OpusCAFiOSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506582A72A68C3E80001B6F7 /* Debug */,
+				506582A82A68C3E80001B6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506582A92A68C3E80001B6F7 /* Build configuration list for PBXNativeTarget "OpusCAFiOSExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506582AA2A68C3E80001B6F7 /* Debug */,
+				506582AB2A68C3E80001B6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506582AC2A68C3E80001B6F7 /* Build configuration list for PBXNativeTarget "OpusCAFiOSExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506582AD2A68C3E80001B6F7 /* Debug */,
+				506582AE2A68C3E80001B6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		506582AF2A68C4530001B6F7 /* XCRemoteSwiftPackageReference "opus_caf_converter_swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hamza72x/opus_caf_converter_swift";
+			requirement = {
+				branch = ft/libify;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		506582B02A68C4530001B6F7 /* OpusCAF */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 506582AF2A68C4530001B6F7 /* XCRemoteSwiftPackageReference "opus_caf_converter_swift" */;
+			productName = OpusCAF;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5065827A2A68C3E70001B6F7 /* Project object */;
+}
