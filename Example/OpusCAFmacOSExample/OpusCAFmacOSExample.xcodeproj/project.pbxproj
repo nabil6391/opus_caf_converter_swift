@@ -7,59 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		506582862A68C3E70001B6F7 /* OpusCAFiOSExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506582852A68C3E70001B6F7 /* OpusCAFiOSExampleApp.swift */; };
-		506582882A68C3E70001B6F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506582872A68C3E70001B6F7 /* ContentView.swift */; };
-		5065828A2A68C3E80001B6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506582892A68C3E80001B6F7 /* Assets.xcassets */; };
-		5065828D2A68C3E80001B6F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5065828C2A68C3E80001B6F7 /* Preview Assets.xcassets */; };
-		506582B12A68C4530001B6F7 /* OpusCAF in Frameworks */ = {isa = PBXBuildFile; productRef = 506582B02A68C4530001B6F7 /* OpusCAF */; };
-		506582B32A68C47B0001B6F7 /* sample.opus in Resources */ = {isa = PBXBuildFile; fileRef = 506582B22A68C47B0001B6F7 /* sample.opus */; };
+		5018AC0E2A68D02800EA4E06 /* OpusCAFmacOSExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5018AC0D2A68D02800EA4E06 /* OpusCAFmacOSExampleApp.swift */; };
+		5018AC102A68D02800EA4E06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5018AC0F2A68D02800EA4E06 /* ContentView.swift */; };
+		5018AC122A68D02800EA4E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5018AC112A68D02800EA4E06 /* Assets.xcassets */; };
+		5018AC152A68D02800EA4E06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5018AC142A68D02800EA4E06 /* Preview Assets.xcassets */; };
+		5018AC3A2A68D04C00EA4E06 /* OpusCAF in Frameworks */ = {isa = PBXBuildFile; productRef = 5018AC392A68D04C00EA4E06 /* OpusCAF */; };
+		5018AC3C2A68D06400EA4E06 /* sample.opus in Resources */ = {isa = PBXBuildFile; fileRef = 5018AC3B2A68D06400EA4E06 /* sample.opus */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		506582932A68C3E80001B6F7 /* PBXContainerItemProxy */ = {
+		5018AC1C2A68D02800EA4E06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5065827A2A68C3E70001B6F7 /* Project object */;
+			containerPortal = 5018AC022A68D02800EA4E06 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 506582812A68C3E70001B6F7;
-			remoteInfo = OpusCAFiOSExample;
+			remoteGlobalIDString = 5018AC092A68D02800EA4E06;
+			remoteInfo = OpusCAFmacOSExample;
 		};
-		5065829D2A68C3E80001B6F7 /* PBXContainerItemProxy */ = {
+		5018AC262A68D02900EA4E06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5065827A2A68C3E70001B6F7 /* Project object */;
+			containerPortal = 5018AC022A68D02800EA4E06 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 506582812A68C3E70001B6F7;
-			remoteInfo = OpusCAFiOSExample;
+			remoteGlobalIDString = 5018AC092A68D02800EA4E06;
+			remoteInfo = OpusCAFmacOSExample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		506582822A68C3E70001B6F7 /* OpusCAFiOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpusCAFiOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		506582852A68C3E70001B6F7 /* OpusCAFiOSExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusCAFiOSExampleApp.swift; sourceTree = "<group>"; };
-		506582872A68C3E70001B6F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		506582892A68C3E80001B6F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5065828C2A68C3E80001B6F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		506582922A68C3E80001B6F7 /* OpusCAFiOSExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpusCAFiOSExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5065829C2A68C3E80001B6F7 /* OpusCAFiOSExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpusCAFiOSExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		506582B22A68C47B0001B6F7 /* sample.opus */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.opus; sourceTree = "<group>"; };
+		5018AC0A2A68D02800EA4E06 /* OpusCAFmacOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpusCAFmacOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5018AC0D2A68D02800EA4E06 /* OpusCAFmacOSExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusCAFmacOSExampleApp.swift; sourceTree = "<group>"; };
+		5018AC0F2A68D02800EA4E06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5018AC112A68D02800EA4E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5018AC142A68D02800EA4E06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5018AC162A68D02800EA4E06 /* OpusCAFmacOSExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpusCAFmacOSExample.entitlements; sourceTree = "<group>"; };
+		5018AC1B2A68D02800EA4E06 /* OpusCAFmacOSExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpusCAFmacOSExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5018AC252A68D02900EA4E06 /* OpusCAFmacOSExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpusCAFmacOSExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5018AC3B2A68D06400EA4E06 /* sample.opus */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.opus; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5065827F2A68C3E70001B6F7 /* Frameworks */ = {
+		5018AC072A68D02800EA4E06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				506582B12A68C4530001B6F7 /* OpusCAF in Frameworks */,
+				5018AC3A2A68D04C00EA4E06 /* OpusCAF in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5065828F2A68C3E80001B6F7 /* Frameworks */ = {
+		5018AC182A68D02800EA4E06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		506582992A68C3E80001B6F7 /* Frameworks */ = {
+		5018AC222A68D02900EA4E06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,40 +70,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		506582792A68C3E70001B6F7 = {
+		5018AC012A68D02800EA4E06 = {
 			isa = PBXGroup;
 			children = (
-				506582842A68C3E70001B6F7 /* OpusCAFiOSExample */,
-				506582832A68C3E70001B6F7 /* Products */,
+				5018AC0C2A68D02800EA4E06 /* OpusCAFmacOSExample */,
+				5018AC0B2A68D02800EA4E06 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		506582832A68C3E70001B6F7 /* Products */ = {
+		5018AC0B2A68D02800EA4E06 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				506582822A68C3E70001B6F7 /* OpusCAFiOSExample.app */,
-				506582922A68C3E80001B6F7 /* OpusCAFiOSExampleTests.xctest */,
-				5065829C2A68C3E80001B6F7 /* OpusCAFiOSExampleUITests.xctest */,
+				5018AC0A2A68D02800EA4E06 /* OpusCAFmacOSExample.app */,
+				5018AC1B2A68D02800EA4E06 /* OpusCAFmacOSExampleTests.xctest */,
+				5018AC252A68D02900EA4E06 /* OpusCAFmacOSExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		506582842A68C3E70001B6F7 /* OpusCAFiOSExample */ = {
+		5018AC0C2A68D02800EA4E06 /* OpusCAFmacOSExample */ = {
 			isa = PBXGroup;
 			children = (
-				506582B22A68C47B0001B6F7 /* sample.opus */,
-				506582852A68C3E70001B6F7 /* OpusCAFiOSExampleApp.swift */,
-				506582872A68C3E70001B6F7 /* ContentView.swift */,
-				506582892A68C3E80001B6F7 /* Assets.xcassets */,
-				5065828B2A68C3E80001B6F7 /* Preview Content */,
+				5018AC0D2A68D02800EA4E06 /* OpusCAFmacOSExampleApp.swift */,
+				5018AC0F2A68D02800EA4E06 /* ContentView.swift */,
+				5018AC112A68D02800EA4E06 /* Assets.xcassets */,
+				5018AC162A68D02800EA4E06 /* OpusCAFmacOSExample.entitlements */,
+				5018AC3B2A68D06400EA4E06 /* sample.opus */,
+				5018AC132A68D02800EA4E06 /* Preview Content */,
 			);
-			path = OpusCAFiOSExample;
+			path = OpusCAFmacOSExample;
 			sourceTree = "<group>";
 		};
-		5065828B2A68C3E80001B6F7 /* Preview Content */ = {
+		5018AC132A68D02800EA4E06 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				5065828C2A68C3E80001B6F7 /* Preview Assets.xcassets */,
+				5018AC142A68D02800EA4E06 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -110,86 +112,86 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		506582812A68C3E70001B6F7 /* OpusCAFiOSExample */ = {
+		5018AC092A68D02800EA4E06 /* OpusCAFmacOSExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 506582A62A68C3E80001B6F7 /* Build configuration list for PBXNativeTarget "OpusCAFiOSExample" */;
+			buildConfigurationList = 5018AC2F2A68D02900EA4E06 /* Build configuration list for PBXNativeTarget "OpusCAFmacOSExample" */;
 			buildPhases = (
-				5065827E2A68C3E70001B6F7 /* Sources */,
-				5065827F2A68C3E70001B6F7 /* Frameworks */,
-				506582802A68C3E70001B6F7 /* Resources */,
+				5018AC062A68D02800EA4E06 /* Sources */,
+				5018AC072A68D02800EA4E06 /* Frameworks */,
+				5018AC082A68D02800EA4E06 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OpusCAFiOSExample;
+			name = OpusCAFmacOSExample;
 			packageProductDependencies = (
-				506582B02A68C4530001B6F7 /* OpusCAF */,
+				5018AC392A68D04C00EA4E06 /* OpusCAF */,
 			);
-			productName = OpusCAFiOSExample;
-			productReference = 506582822A68C3E70001B6F7 /* OpusCAFiOSExample.app */;
+			productName = OpusCAFmacOSExample;
+			productReference = 5018AC0A2A68D02800EA4E06 /* OpusCAFmacOSExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		506582912A68C3E80001B6F7 /* OpusCAFiOSExampleTests */ = {
+		5018AC1A2A68D02800EA4E06 /* OpusCAFmacOSExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 506582A92A68C3E80001B6F7 /* Build configuration list for PBXNativeTarget "OpusCAFiOSExampleTests" */;
+			buildConfigurationList = 5018AC322A68D02900EA4E06 /* Build configuration list for PBXNativeTarget "OpusCAFmacOSExampleTests" */;
 			buildPhases = (
-				5065828E2A68C3E80001B6F7 /* Sources */,
-				5065828F2A68C3E80001B6F7 /* Frameworks */,
-				506582902A68C3E80001B6F7 /* Resources */,
+				5018AC172A68D02800EA4E06 /* Sources */,
+				5018AC182A68D02800EA4E06 /* Frameworks */,
+				5018AC192A68D02800EA4E06 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				506582942A68C3E80001B6F7 /* PBXTargetDependency */,
+				5018AC1D2A68D02800EA4E06 /* PBXTargetDependency */,
 			);
-			name = OpusCAFiOSExampleTests;
-			productName = OpusCAFiOSExampleTests;
-			productReference = 506582922A68C3E80001B6F7 /* OpusCAFiOSExampleTests.xctest */;
+			name = OpusCAFmacOSExampleTests;
+			productName = OpusCAFmacOSExampleTests;
+			productReference = 5018AC1B2A68D02800EA4E06 /* OpusCAFmacOSExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5065829B2A68C3E80001B6F7 /* OpusCAFiOSExampleUITests */ = {
+		5018AC242A68D02900EA4E06 /* OpusCAFmacOSExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 506582AC2A68C3E80001B6F7 /* Build configuration list for PBXNativeTarget "OpusCAFiOSExampleUITests" */;
+			buildConfigurationList = 5018AC352A68D02900EA4E06 /* Build configuration list for PBXNativeTarget "OpusCAFmacOSExampleUITests" */;
 			buildPhases = (
-				506582982A68C3E80001B6F7 /* Sources */,
-				506582992A68C3E80001B6F7 /* Frameworks */,
-				5065829A2A68C3E80001B6F7 /* Resources */,
+				5018AC212A68D02900EA4E06 /* Sources */,
+				5018AC222A68D02900EA4E06 /* Frameworks */,
+				5018AC232A68D02900EA4E06 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5065829E2A68C3E80001B6F7 /* PBXTargetDependency */,
+				5018AC272A68D02900EA4E06 /* PBXTargetDependency */,
 			);
-			name = OpusCAFiOSExampleUITests;
-			productName = OpusCAFiOSExampleUITests;
-			productReference = 5065829C2A68C3E80001B6F7 /* OpusCAFiOSExampleUITests.xctest */;
+			name = OpusCAFmacOSExampleUITests;
+			productName = OpusCAFmacOSExampleUITests;
+			productReference = 5018AC252A68D02900EA4E06 /* OpusCAFmacOSExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5065827A2A68C3E70001B6F7 /* Project object */ = {
+		5018AC022A68D02800EA4E06 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					506582812A68C3E70001B6F7 = {
+					5018AC092A68D02800EA4E06 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					506582912A68C3E80001B6F7 = {
+					5018AC1A2A68D02800EA4E06 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 506582812A68C3E70001B6F7;
+						TestTargetID = 5018AC092A68D02800EA4E06;
 					};
-					5065829B2A68C3E80001B6F7 = {
+					5018AC242A68D02900EA4E06 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 506582812A68C3E70001B6F7;
+						TestTargetID = 5018AC092A68D02800EA4E06;
 					};
 				};
 			};
-			buildConfigurationList = 5065827D2A68C3E70001B6F7 /* Build configuration list for PBXProject "OpusCAFiOSExample" */;
+			buildConfigurationList = 5018AC052A68D02800EA4E06 /* Build configuration list for PBXProject "OpusCAFmacOSExample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -197,40 +199,40 @@
 				en,
 				Base,
 			);
-			mainGroup = 506582792A68C3E70001B6F7;
+			mainGroup = 5018AC012A68D02800EA4E06;
 			packageReferences = (
-				506582AF2A68C4530001B6F7 /* XCRemoteSwiftPackageReference "opus_caf_converter_swift" */,
+				5018AC382A68D04C00EA4E06 /* XCRemoteSwiftPackageReference "opus_caf_converter_swift" */,
 			);
-			productRefGroup = 506582832A68C3E70001B6F7 /* Products */;
+			productRefGroup = 5018AC0B2A68D02800EA4E06 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				506582812A68C3E70001B6F7 /* OpusCAFiOSExample */,
-				506582912A68C3E80001B6F7 /* OpusCAFiOSExampleTests */,
-				5065829B2A68C3E80001B6F7 /* OpusCAFiOSExampleUITests */,
+				5018AC092A68D02800EA4E06 /* OpusCAFmacOSExample */,
+				5018AC1A2A68D02800EA4E06 /* OpusCAFmacOSExampleTests */,
+				5018AC242A68D02900EA4E06 /* OpusCAFmacOSExampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		506582802A68C3E70001B6F7 /* Resources */ = {
+		5018AC082A68D02800EA4E06 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5065828D2A68C3E80001B6F7 /* Preview Assets.xcassets in Resources */,
-				5065828A2A68C3E80001B6F7 /* Assets.xcassets in Resources */,
-				506582B32A68C47B0001B6F7 /* sample.opus in Resources */,
+				5018AC152A68D02800EA4E06 /* Preview Assets.xcassets in Resources */,
+				5018AC122A68D02800EA4E06 /* Assets.xcassets in Resources */,
+				5018AC3C2A68D06400EA4E06 /* sample.opus in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		506582902A68C3E80001B6F7 /* Resources */ = {
+		5018AC192A68D02800EA4E06 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5065829A2A68C3E80001B6F7 /* Resources */ = {
+		5018AC232A68D02900EA4E06 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -240,23 +242,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5065827E2A68C3E70001B6F7 /* Sources */ = {
+		5018AC062A68D02800EA4E06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				506582882A68C3E70001B6F7 /* ContentView.swift in Sources */,
-				506582862A68C3E70001B6F7 /* OpusCAFiOSExampleApp.swift in Sources */,
+				5018AC102A68D02800EA4E06 /* ContentView.swift in Sources */,
+				5018AC0E2A68D02800EA4E06 /* OpusCAFmacOSExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5065828E2A68C3E80001B6F7 /* Sources */ = {
+		5018AC172A68D02800EA4E06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		506582982A68C3E80001B6F7 /* Sources */ = {
+		5018AC212A68D02900EA4E06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,20 +268,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		506582942A68C3E80001B6F7 /* PBXTargetDependency */ = {
+		5018AC1D2A68D02800EA4E06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 506582812A68C3E70001B6F7 /* OpusCAFiOSExample */;
-			targetProxy = 506582932A68C3E80001B6F7 /* PBXContainerItemProxy */;
+			target = 5018AC092A68D02800EA4E06 /* OpusCAFmacOSExample */;
+			targetProxy = 5018AC1C2A68D02800EA4E06 /* PBXContainerItemProxy */;
 		};
-		5065829E2A68C3E80001B6F7 /* PBXTargetDependency */ = {
+		5018AC272A68D02900EA4E06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 506582812A68C3E70001B6F7 /* OpusCAFiOSExample */;
-			targetProxy = 5065829D2A68C3E80001B6F7 /* PBXContainerItemProxy */;
+			target = 5018AC092A68D02800EA4E06 /* OpusCAFmacOSExample */;
+			targetProxy = 5018AC262A68D02900EA4E06 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		506582A42A68C3E80001B6F7 /* Debug */ = {
+		5018AC2D2A68D02900EA4E06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -329,17 +331,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		506582A52A68C3E80001B6F7 /* Release */ = {
+		5018AC2E2A68D02900EA4E06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -383,73 +385,66 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		506582A72A68C3E80001B6F7 /* Debug */ = {
+		5018AC302A68D02900EA4E06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpusCAFmacOSExample/OpusCAFmacOSExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"OpusCAFiOSExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"OpusCAFmacOSExample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFiOSExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFmacOSExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		506582A82A68C3E80001B6F7 /* Release */ = {
+		5018AC312A68D02900EA4E06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpusCAFmacOSExample/OpusCAFmacOSExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"OpusCAFiOSExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"OpusCAFmacOSExample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFiOSExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFmacOSExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		506582AA2A68C3E80001B6F7 /* Debug */ = {
+		5018AC332A68D02900EA4E06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -457,18 +452,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFiOSExampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFmacOSExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpusCAFiOSExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpusCAFiOSExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpusCAFmacOSExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpusCAFmacOSExample";
 			};
 			name = Debug;
 		};
-		506582AB2A68C3E80001B6F7 /* Release */ = {
+		5018AC342A68D02900EA4E06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -476,18 +470,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFiOSExampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFmacOSExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpusCAFiOSExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpusCAFiOSExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpusCAFmacOSExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpusCAFmacOSExample";
 			};
 			name = Release;
 		};
-		506582AD2A68C3E80001B6F7 /* Debug */ = {
+		5018AC362A68D02900EA4E06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -495,16 +488,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFiOSExampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFmacOSExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OpusCAFiOSExample;
+				TEST_TARGET_NAME = OpusCAFmacOSExample;
 			};
 			name = Debug;
 		};
-		506582AE2A68C3E80001B6F7 /* Release */ = {
+		5018AC372A68D02900EA4E06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -512,50 +504,49 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFiOSExampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OpusCAFmacOSExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OpusCAFiOSExample;
+				TEST_TARGET_NAME = OpusCAFmacOSExample;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5065827D2A68C3E70001B6F7 /* Build configuration list for PBXProject "OpusCAFiOSExample" */ = {
+		5018AC052A68D02800EA4E06 /* Build configuration list for PBXProject "OpusCAFmacOSExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				506582A42A68C3E80001B6F7 /* Debug */,
-				506582A52A68C3E80001B6F7 /* Release */,
+				5018AC2D2A68D02900EA4E06 /* Debug */,
+				5018AC2E2A68D02900EA4E06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		506582A62A68C3E80001B6F7 /* Build configuration list for PBXNativeTarget "OpusCAFiOSExample" */ = {
+		5018AC2F2A68D02900EA4E06 /* Build configuration list for PBXNativeTarget "OpusCAFmacOSExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				506582A72A68C3E80001B6F7 /* Debug */,
-				506582A82A68C3E80001B6F7 /* Release */,
+				5018AC302A68D02900EA4E06 /* Debug */,
+				5018AC312A68D02900EA4E06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		506582A92A68C3E80001B6F7 /* Build configuration list for PBXNativeTarget "OpusCAFiOSExampleTests" */ = {
+		5018AC322A68D02900EA4E06 /* Build configuration list for PBXNativeTarget "OpusCAFmacOSExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				506582AA2A68C3E80001B6F7 /* Debug */,
-				506582AB2A68C3E80001B6F7 /* Release */,
+				5018AC332A68D02900EA4E06 /* Debug */,
+				5018AC342A68D02900EA4E06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		506582AC2A68C3E80001B6F7 /* Build configuration list for PBXNativeTarget "OpusCAFiOSExampleUITests" */ = {
+		5018AC352A68D02900EA4E06 /* Build configuration list for PBXNativeTarget "OpusCAFmacOSExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				506582AD2A68C3E80001B6F7 /* Debug */,
-				506582AE2A68C3E80001B6F7 /* Release */,
+				5018AC362A68D02900EA4E06 /* Debug */,
+				5018AC372A68D02900EA4E06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -563,23 +554,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		506582AF2A68C4530001B6F7 /* XCRemoteSwiftPackageReference "opus_caf_converter_swift" */ = {
+		5018AC382A68D04C00EA4E06 /* XCRemoteSwiftPackageReference "opus_caf_converter_swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/hamza72x/opus_caf_converter_swift";
+			repositoryURL = "https://github.com/nabil6391/opus_caf_converter_swift";
 			requirement = {
-				branch = ft/libify;
+				branch = main;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		506582B02A68C4530001B6F7 /* OpusCAF */ = {
+		5018AC392A68D04C00EA4E06 /* OpusCAF */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 506582AF2A68C4530001B6F7 /* XCRemoteSwiftPackageReference "opus_caf_converter_swift" */;
+			package = 5018AC382A68D04C00EA4E06 /* XCRemoteSwiftPackageReference "opus_caf_converter_swift" */;
 			productName = OpusCAF;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 5065827A2A68C3E70001B6F7 /* Project object */;
+	rootObject = 5018AC022A68D02800EA4E06 /* Project object */;
 }

@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "opus_caf_converter_swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nabil6391/opus_caf_converter_swift",
+      "state" : {
+        "branch" : "main",
+        "revision" : "16849cf9bc30bd6d6195cd062efa7b0531f151b8"
+      }
+    }
+  ],
+  "version" : 2
+}
