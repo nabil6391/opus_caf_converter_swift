@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "opus_caf_converter_swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hamza72x/opus_caf_converter_swift",
+      "state" : {
+        "branch" : "ft/libify",
+        "revision" : "98f00e608180492e4662316d5394a41a3a420c5f"
+      }
+    }
+  ],
+  "version" : 2
+}

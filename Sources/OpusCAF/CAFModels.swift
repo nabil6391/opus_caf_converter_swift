@@ -1,42 +1,42 @@
 //
-//  caf_models.swift
-//  Swift Converter
+//  File.swift
+//  
 //
-//  Created by Fairoze Hassan on 13/07/2023.
+//  Created by hamza on 20/7/23.
 //
 
 import Foundation
 
 struct FourByteString: Equatable {
     let bytes: (UInt8, UInt8, UInt8, UInt8)
-
+    
     init(_ string: String) {
         guard string.count == 4 else {
             self.bytes =  (0,0,0,0)
             return
         }
-
+        
         let stringBytes = Array(string.utf8)
         guard stringBytes.count == 4 else {
             self.bytes =  (0,0,0,0)
             return
         }
-
+        
         self.bytes = (stringBytes[0], stringBytes[1], stringBytes[2], stringBytes[3])
     }
-
+    
     static func ==(lhs: FourByteString, rhs: FourByteString) -> Bool {
         return lhs.bytes == rhs.bytes
     }
     
     func encode() -> Data {
-          var data = Data()
-          data.append(bytes.0)
-          data.append(bytes.1)
-          data.append(bytes.2)
-          data.append(bytes.3)
-          return data
-      }
+        var data = Data()
+        data.append(bytes.0)
+        data.append(bytes.1)
+        data.append(bytes.2)
+        data.append(bytes.3)
+        return data
+    }
 }
 
 struct ChunkTypes {
@@ -51,7 +51,7 @@ struct ChunkTypes {
 struct CafFile {
     var fileHeader: FileHeader
     var chunks: [Chunk]
-
+    
     func encode() -> Data {
         var data = Data()
         
@@ -68,33 +68,33 @@ struct ChunkHeader {
     var chunkSize: Int64
     
     func encode() -> Data {
-            var data = Data()
+        var data = Data()
         let chunkTypeData = chunkType.encode()
-            data.append(chunkTypeData)
-            let chunkSizeData = withUnsafeBytes(of: chunkSize.bigEndian, Array.init)
-            data.append(contentsOf: chunkSizeData)
-            return data
+        data.append(chunkTypeData)
+        let chunkSizeData = withUnsafeBytes(of: chunkSize.bigEndian, Array.init)
+        data.append(contentsOf: chunkSizeData)
+        return data
+    }
+    
+    static func decode(data: inout Data) -> ChunkHeader? {
+        guard data.count >= 12 else {
+            return nil // Not enough data
         }
-
-        static func decode(data: inout Data) -> ChunkHeader? {
-            guard data.count >= 12 else {
-                return nil // Not enough data
-            }
-            
-            let chunkTypeData = data.subdata(in: 0..<4)
-            let chunkTypeString = String(data: chunkTypeData, encoding: .utf8)
-            
-            let chunkType = FourByteString(chunkTypeString ?? "")
-            
-            let chunkSizeData = data.subdata(in: 4..<12)
-            let chunkSize = chunkSizeData.withUnsafeBytes {
-                $0.load(as: Int64.self)
-            }.bigEndian
-            
-            data.removeFirst(12) // Adjust the data
-            
-            return ChunkHeader(chunkType: chunkType, chunkSize: chunkSize)
-        }
+        
+        let chunkTypeData = data.subdata(in: 0..<4)
+        let chunkTypeString = String(data: chunkTypeData, encoding: .utf8)
+        
+        let chunkType = FourByteString(chunkTypeString ?? "")
+        
+        let chunkSizeData = data.subdata(in: 4..<12)
+        let chunkSize = chunkSizeData.withUnsafeBytes {
+            $0.load(as: Int64.self)
+        }.bigEndian
+        
+        data.removeFirst(12) // Adjust the data
+        
+        return ChunkHeader(chunkType: chunkType, chunkSize: chunkSize)
+    }
 }
 
 struct ChannelDescription {
@@ -103,23 +103,23 @@ struct ChannelDescription {
     var coordinates: (Float, Float, Float)
     
     func encode() -> Data {
-           var result = Data()
-           result.writeUInt32(channelLabel)
-           result.writeUInt32(channelFlags)
-           result.writeFloat(coordinates.0)
-           result.writeFloat(coordinates.1)
-           result.writeFloat(coordinates.2)
-           return result
-       }
-
+        var result = Data()
+        result.writeUInt32(channelLabel)
+        result.writeUInt32(channelFlags)
+        result.writeFloat(coordinates.0)
+        result.writeFloat(coordinates.1)
+        result.writeFloat(coordinates.2)
+        return result
+    }
+    
 }
 
 struct UnknownContents {
     var data: Data
     
     func encode() -> Data {
-            return data // No encoding needed as the data is already in the required format
-        }
+        return data // No encoding needed as the data is already in the required format
+    }
 }
 
 typealias Midi = Data
@@ -128,8 +128,8 @@ typealias Midi = Data
 struct Information {
     var key: String
     var value: String
-
-  
+    
+    
     func encode() -> Data {
         var data = Data()
         data.writeString(key)
@@ -148,12 +148,12 @@ struct PacketTableHeader {
 class CAFStringsChunk {
     var numEntries: UInt32
     var strings: [Information]
-
+    
     init(numEntries: UInt32, strings: [Information]) {
         self.numEntries = numEntries
         self.strings = strings
     }
-
+    
     func encode() -> Data {
         var data = Data()
         data.writeUInt32(numEntries)
@@ -162,7 +162,7 @@ class CAFStringsChunk {
         }
         return data
     }
-
+    
 }
 
 class PacketTable {
@@ -194,14 +194,14 @@ class ChannelLayout {
     var channelBitmap: UInt32
     var numberChannelDescriptions: UInt32
     var channels: [ChannelDescription]
-
+    
     init(channelLayoutTag: UInt32, channelBitmap: UInt32, numberChannelDescriptions: UInt32, channels: [ChannelDescription]) {
         self.channelLayoutTag = channelLayoutTag
         self.channelBitmap = channelBitmap
         self.numberChannelDescriptions = numberChannelDescriptions
         self.channels = channels
     }
-
+    
     func encode() -> Data {
         var data = Data()
         data.writeUInt32(channelLayoutTag)
@@ -217,12 +217,12 @@ class ChannelLayout {
 class AudioData {
     var editCount: UInt32
     var data: [UInt8]
-
+    
     init(editCount: UInt32, data: [UInt8]) {
         self.editCount = editCount
         self.data = data
     }
-
+    
     func encode() -> Data {
         var result = Data()
         result.writeUInt32(editCount)
@@ -240,16 +240,16 @@ class AudioFormat {
     var framesPerPacket: UInt32
     var channelsPerPacket: UInt32
     var bitsPerChannel: UInt32
-
+    
     init(sampleRate: Float64, formatID: FourByteString, formatFlags: UInt32, bytesPerPacket: UInt32, framesPerPacket: UInt32, channelsPerPacket: UInt32, bitsPerChannel: UInt32) {
-            self.sampleRate = sampleRate
-            self.formatID = formatID
-            self.formatFlags = formatFlags
-            self.bytesPerPacket = bytesPerPacket
-            self.framesPerPacket = framesPerPacket
-            self.channelsPerPacket = channelsPerPacket
-            self.bitsPerChannel = bitsPerChannel
-        }
+        self.sampleRate = sampleRate
+        self.formatID = formatID
+        self.formatFlags = formatFlags
+        self.bytesPerPacket = bytesPerPacket
+        self.framesPerPacket = framesPerPacket
+        self.channelsPerPacket = channelsPerPacket
+        self.bitsPerChannel = bitsPerChannel
+    }
     
     func encode() -> Data {
         var data = Data()
@@ -277,12 +277,12 @@ enum ChunkType: String {
 class Chunk {
     var header: ChunkHeader
     var contents: AnyObject?
-
+    
     init(header: ChunkHeader, contents: AnyObject?) {
         self.header = header
         self.contents = contents
     }
-
+    
     func encode() -> Data {
         var data = Data()
         data.append(header.encode())
@@ -292,7 +292,7 @@ class Chunk {
             data.append(audioFormat.encode())
         case ChunkTypes.channelLayout:
             let channelLayout = contents as! ChannelLayout
-               data.append(channelLayout.encode())
+            data.append(channelLayout.encode())
         case ChunkTypes.information:
             let cafStringsChunk = contents as! CAFStringsChunk
             data.append(cafStringsChunk.encode())
@@ -324,7 +324,7 @@ struct FileHeader {
         let buffer = UnsafeRawBufferPointer(start: readerData.withUnsafeMutableBytes { $0.baseAddress }, count: readerData.count)
         
         let fileTypeValue = buffer.load(fromByteOffset: 0, as: FourByteString.self)
-
+        
         if fileTypeValue != FourByteString("caff") {
             throw NSError(domain: "InvalidHeaderError", code: 0, userInfo: [NSLocalizedDescriptionKey: "Invalid caff header"])
         }
@@ -335,10 +335,10 @@ struct FileHeader {
     }
     
     func encode() -> Data {
-           var writer = Data()
-           writer.writeFourByteString(fileType.encode())
-           writer.writeInt16(fileVersion)
-           writer.writeInt16(fileFlags)
-           return writer
-       }
+        var writer = Data()
+        writer.writeFourByteString(fileType.encode())
+        writer.writeInt16(fileVersion)
+        writer.writeInt16(fileFlags)
+        return writer
+    }
 }
