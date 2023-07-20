@@ -3,10 +3,10 @@
     {
       "identity" : "opus_caf_converter_swift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/hamza72x/opus_caf_converter_swift",
+      "location" : "https://github.com/nabil6391/opus_caf_converter_swift",
       "state" : {
-        "branch" : "ft/libify",
-        "revision" : "98f00e608180492e4662316d5394a41a3a420c5f"
+        "branch" : "main",
+        "revision" : "aacd1fd064593d3a7afcf6f3debc8c436b7c68c9"
       }
     }
   ],

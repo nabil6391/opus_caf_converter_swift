@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		504767132A68D2E900A060AF /* OpusCAF in Frameworks */ = {isa = PBXBuildFile; productRef = 504767122A68D2E900A060AF /* OpusCAF */; };
 		506582862A68C3E70001B6F7 /* OpusCAFiOSExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506582852A68C3E70001B6F7 /* OpusCAFiOSExampleApp.swift */; };
 		506582882A68C3E70001B6F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506582872A68C3E70001B6F7 /* ContentView.swift */; };
 		5065828A2A68C3E80001B6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506582892A68C3E80001B6F7 /* Assets.xcassets */; };
 		5065828D2A68C3E80001B6F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5065828C2A68C3E80001B6F7 /* Preview Assets.xcassets */; };
-		506582B12A68C4530001B6F7 /* OpusCAF in Frameworks */ = {isa = PBXBuildFile; productRef = 506582B02A68C4530001B6F7 /* OpusCAF */; };
 		506582B32A68C47B0001B6F7 /* sample.opus in Resources */ = {isa = PBXBuildFile; fileRef = 506582B22A68C47B0001B6F7 /* sample.opus */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				506582B12A68C4530001B6F7 /* OpusCAF in Frameworks */,
+				504767132A68D2E900A060AF /* OpusCAF in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +124,7 @@
 			);
 			name = OpusCAFiOSExample;
 			packageProductDependencies = (
-				506582B02A68C4530001B6F7 /* OpusCAF */,
+				504767122A68D2E900A060AF /* OpusCAF */,
 			);
 			productName = OpusCAFiOSExample;
 			productReference = 506582822A68C3E70001B6F7 /* OpusCAFiOSExample.app */;
@@ -199,7 +199,7 @@
 			);
 			mainGroup = 506582792A68C3E70001B6F7;
 			packageReferences = (
-				506582AF2A68C4530001B6F7 /* XCRemoteSwiftPackageReference "opus_caf_converter_swift" */,
+				504767112A68D2E900A060AF /* XCRemoteSwiftPackageReference "opus_caf_converter_swift" */,
 			);
 			productRefGroup = 506582832A68C3E70001B6F7 /* Products */;
 			projectDirPath = "";
@@ -563,20 +563,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		506582AF2A68C4530001B6F7 /* XCRemoteSwiftPackageReference "opus_caf_converter_swift" */ = {
+		504767112A68D2E900A060AF /* XCRemoteSwiftPackageReference "opus_caf_converter_swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/hamza72x/opus_caf_converter_swift";
+			repositoryURL = "https://github.com/nabil6391/opus_caf_converter_swift";
 			requirement = {
-				branch = ft/libify;
+				branch = main;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		506582B02A68C4530001B6F7 /* OpusCAF */ = {
+		504767122A68D2E900A060AF /* OpusCAF */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 506582AF2A68C4530001B6F7 /* XCRemoteSwiftPackageReference "opus_caf_converter_swift" */;
+			package = 504767112A68D2E900A060AF /* XCRemoteSwiftPackageReference "opus_caf_converter_swift" */;
 			productName = OpusCAF;
 		};
 /* End XCSwiftPackageProductDependency section */
